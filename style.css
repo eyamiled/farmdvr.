@@ -1,0 +1,87 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #2e2e2e; /* Dark gray background */
+    color: #e0e0e0; /* Light gray for contrast */
+}
+
+header {
+    text-align: center;
+    background-color: #003f3f; /* Dark teal for the header */
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    color: #009688; /* Teal for section headers */
+    margin-top: 30px;
+    font-size: 2em;
+    border-bottom: 2px solid #009688; /* Underline effect for headers */
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+.menu {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #005757; /* Medium dark teal for the menu */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #e0e0e0; /* Light gray for links */
+    font-weight: bold;
+    transition: color 0.3s;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: #80cbc4; /* Light teal background on hover */
+    color: #003f3f; /* Darker teal text on hover */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    background-color: #3a3a3a; /* Dark gray for sections */
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #003f3f; /* Same color as header */
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
